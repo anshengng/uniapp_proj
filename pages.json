@@ -17,11 +17,17 @@
 		}, {
 			"path": "pages/my/index",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "我的",
 				"enablePullDownRefresh": false
 			}
-
+		},
+		{
+			"path": "pages/notify/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
 		}
+
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -35,6 +41,11 @@
 				"text": "首页",
 				"iconPath": "static/tabbar/LKlogo.png",
 				"selectedIconPath": "static/tabbar/LKlogo.png"
+			},
+			{
+				"pagePath": "pages/notify/index",
+				"text": "消息",
+				"iconPath": "static/tabbar/LKlogo.png"
 			},
 			{
 				"pagePath": "pages/my/index",
